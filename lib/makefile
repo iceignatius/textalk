@@ -30,6 +30,8 @@ endif
 LDFLAGS :=
 LDFLAGS += -s
 SRCS    :=
+SRCS    += ../submod/genutil/gen/systime.c
+SRCS    += ../submod/genutil/gen/timeinf.c
 SRCS    += src/textalk_conf.c
 SRCS    += src/textalk_packet.c
 SRCS    += src/textalk.c
